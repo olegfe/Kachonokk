@@ -1,0 +1,17 @@
+﻿{% extends "app/layout.html" %}
+    <div class="container body-content">
+{% block content %}{% load staticfiles %}
+        <hr/>
+
+      <div class="images">
+          <a href ="https://magnit.ru/" target="_blank"> <img src="{% static 'app/content/1.png' %}" alt="Logo 1"/></a>
+      <a href ="https://www.vtb.ru/" target="_blank"> <img src="{% static 'app/content/2.png' %}" alt="Logo 1"/></a>
+          <a href ="https://www.vostbank.ru/" target="_blank"> <img src="{% static 'app/content/3.png' %}" alt="Logo 1"/></a>
+      </div>
+
+      
+    </div>
+{% endblock %}
+
+</body>
+</html>
