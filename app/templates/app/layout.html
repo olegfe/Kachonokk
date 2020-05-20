@@ -29,7 +29,7 @@
                     <li><a href="{% url 'contact' %}">Контакты</a></li>
                     <li><a href="{% url 'links' %}">Наши клиенты</a></li>
                     <li><a href="{% url 'blog' %}">Блог</a></li>
-                    <li><a href="{% url 'anketa' %}">Анкета</a></li>
+                    <li><a href="{% url 'anketa' %}">Обратная связь</a></li>
                     {% if user.is_superuser %}
                     <li><a href="{% url 'newpost' %}">Добавление статьи</a></li>
                     {% endif %}
